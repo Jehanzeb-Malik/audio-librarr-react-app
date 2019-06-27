@@ -7,8 +7,8 @@ const Loader = (props) => {
         <br />
         <br />
         <br />
-        <div className="ui active inverted dimmer">
-          <div className="ui text loader">
+        <div className="ui active inverted dimmer mbl-container">
+          <div className="ui text loader mbl-container">
             {props.text}
           </div>
         </div>

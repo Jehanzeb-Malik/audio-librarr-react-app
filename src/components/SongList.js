@@ -70,7 +70,7 @@ const mapStateToProps = (state) => {
   return {
     selectedPlayList: state.selectedPlayList
   };
-}
+};
 
 export default connect(mapStateToProps, {
   fetchPlayListDetail, selectSong

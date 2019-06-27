@@ -1,0 +1,78 @@
+body {
+    background: #160d45 !important;
+    background: -moz-linear-gradient(45deg, #160d45 0%, #c32c89 100%) !important;
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #160d45), color-stop(100%, #c32c89)) !important;
+    background: -webkit-linear-gradient(45deg, #160d45 0%, #c32c89 100%) !important;
+    background: -o-linear-gradient(45deg, #160d45 0%, #c32c89 100%) !important;
+    background: -ms-linear-gradient(45deg, #160d45 0%, #c32c89 100%) !important;
+    background: linear-gradient(45deg, #160d45 0%, #c32c89 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#160d45', endColorstr='#c32c89', GradientType=1 ) !important;
+    padding-top: 10px;
+}
+
+.mbl-container {
+    background: rgba(255,255,255,0) !important;
+    background-color: rgba(255,255,255,0) !important;
+    border: 0px !important;
+    box-shadow: 0 1px 2px 0 rgba(255,255,255,0) !important;
+}
+
+
+.mbl-container-success {
+    /*background: rgba(255,255,255,0) !important;*/
+    /*background-color: rgba(255,255,255,0) !important;*/
+    border: 0px !important;
+    box-shadow: 0 1px 2px 0 rgba(255,255,255,0) !important;
+    width: 50% !important;
+    margin: 0 auto 20px !important;
+    background: rgba(255,255,255,0.2) !important;
+}
+
+.mbl-container-success h1,
+.mbl-container-success h3 {
+    text-align: center;
+}
+
+.loader.mbl-container {
+    color: #fff !important;
+    margin-top: 100px;
+}
+
+.tablet-icon {
+    margin: 0 auto 20px;
+    width: 120px;
+    display: block;
+}
+
+.mbl-header {
+    text-align: center !important;
+    color: white !important;
+    margin-bottom: 20px !important;
+}
+
+.mbl-label {
+    margin: 0 auto 20px !important;
+    background-color: #82128a !important;
+    color: #fff !important;
+    font-size: 14px !important;
+    display: table !important;
+}
+
+.mbl-qr-code {
+    display: block;
+    margin: 0 auto 20px !important;
+}
+
+.mbl-customer-card {
+    margin: 0 auto 25px !important;
+    width: 350px !important;
+    background: rgba(22, 13, 69, 1) !important;
+}
+
+.mbl-customer-card > .content > div {
+    color: #fff !important;
+}
+
+.mbl-align-right {
+    text-align: right !important;
+}
